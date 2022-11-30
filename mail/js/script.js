@@ -23,16 +23,16 @@
 }
 }
 if(flag){
-
+    
     console.log("la tua mail è presente in elenco  ")
 }
   else{
+      
+       // ALTRIMENTI stampo " mail non presente in elenco"
     
       console.log("la tua mail non è presente in elenco ")
   }
 
 
- // ALTRIMENTI stampo " mail non presente in elenco"
 
-
- document.getElementById('esito_mail').innerHTML;
+ document.getElementById('esito_mail').innerHTML
