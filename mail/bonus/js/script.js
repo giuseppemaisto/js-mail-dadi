@@ -5,7 +5,9 @@ console.log(mail)
 const BottoneConfronta = document.getElementById("confronta")
 
 BottoneConfronta.addEventListener("click", function(){
-
+//1 - chiedo all'utente di inserire la sua mail 
+const mail = document.getElementById("mail").value
+console.log(mail)
 
 //2 - definisco array con elenco di mail 
 
